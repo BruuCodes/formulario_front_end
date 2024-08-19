@@ -1,0 +1,95 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+
+h1,
+h3 {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+
+}
+
+h1 {
+    margin-bottom: 12px;
+}
+
+#top {
+    background-color: #0000ff;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 28px 0px;
+}
+
+.top {
+    color: #ffffff;
+}
+
+form {
+    display: flex;
+    flex-direction: column
+}
+
+.formOne,
+.formTwo {
+    margin: 16px;
+    padding: 16px;
+    background-color: #a5a5a5;
+    border-radius: 6px;
+    display: grid;
+    align-items: center;
+}
+
+input {
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 18px;
+}
+
+button {
+    width: 120px;
+    height: 35px;
+    background-color: #008000;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #003f00;
+}
+
+#end {
+    background-color: #0000ff;
+    text-align: center;
+    padding: 18px;
+}
+
+.end {
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: #62ffff;
+}
+
+a:hover {
+    color: #ffffff;
+}
